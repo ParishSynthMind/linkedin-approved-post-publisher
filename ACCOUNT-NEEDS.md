@@ -7,8 +7,9 @@ Everything except the real post has been built and tested. The last step needs a
 1. **Open** https://www.linkedin.com/developers/apps/new while signed in to your own LinkedIn.
 2. **Fill in the form:**
    - App name: `Approved Post Publisher` (any name works)
-   - LinkedIn Page: pick your business page. LinkedIn will not create an app without one. If you have none, create a basic company page first (Me menu > Post a job or Create a Company Page). It takes two minutes.
-   - App logo: any square image (the business logo is fine)
+   - LinkedIn Page: pick your business page. LinkedIn will not create an app without one. If you have none, create a basic company page first at https://www.linkedin.com/company/setup/new/ (name, public URL, industry, size, type, logo, then tick that you are authorized to act for it). It takes two minutes. The page only appears in this list once it exists.
+   - Privacy policy URL: required. This repo publishes one on GitHub Pages: https://parishsynthmind.github.io/linkedin-approved-post-publisher/privacy.html (from `docs/privacy.html`; update it if you fork the tool).
+   - App logo: required, a square image of at least 100 x 100 pixels (the business logo, the same one as the Page, is fine)
    - Tick the legal agreement and press **Create app**.
 3. **Settings tab:** press **Verify** next to the Page and approve the link as the page admin. Some products stay locked until this is done.
 4. **Products tab:** press **Request access** on both of these. They are self-serve and usually approved at once:
@@ -20,8 +21,8 @@ Everything except the real post has been built and tested. The last step needs a
    - Check that "OAuth 2.0 scopes" now lists `openid`, `profile`, `w_member_social`.
 6. **Save the app keys in the Keychain yourself.** Never paste them into chat or email. In Terminal, run each line. It asks for the value, so it never appears on screen:
    ```
-   security add-generic-password -a neo -s linkedin-client-id -w
-   security add-generic-password -a neo -s linkedin-client-secret -w
+   security add-generic-password -U -a neo -s linkedin-client-id -w
+   security add-generic-password -U -a neo -s linkedin-client-secret -w
    ```
    Paste the Client ID, then the Primary Client Secret, from the Auth tab.
 
