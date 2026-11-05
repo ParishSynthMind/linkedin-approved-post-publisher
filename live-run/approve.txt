@@ -1,0 +1,2 @@
+$ python -m li_publisher approve 351d8760 --by Parish
+Approved 351d8760 (hash 1de4a5b51f67fe98). It will publish on the next `publish` run.

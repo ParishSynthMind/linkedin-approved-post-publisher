@@ -1,0 +1,4 @@
+$ python -m li_publisher edit 0f97f1c8 --text-file edited.txt   # someone adds an invented figure
+Edited 0f97f1c8; it is back to failed and needs approving again.
+[ERROR] unverified_figure: the figure '62' is not in the brief's facts
+exit 2

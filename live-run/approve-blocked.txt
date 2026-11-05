@@ -1,0 +1,3 @@
+$ python -m li_publisher approve 0f97f1c8 --by Parish
+ERROR: draft 0f97f1c8 is failed, only pending drafts can be approved
+exit 2

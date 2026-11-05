@@ -1,0 +1,15 @@
+$ python -m li_publisher publish --dry-run
+[dry run] would POST /rest/posts for draft 351d8760:
+{
+  "author": "urn:li:person:DRYRUN",
+  "commentary": "I recently automated invoice data entry for a small accounting firm. The biggest lesson was not the part I expected.\n\nThe firm got around 300 supplier invoices a month as PDF email attachments. Each one used to take about 4 minutes to key in by hand.\n\nThe new flow reads the PDF and extracts the fields. Anything it is not confident about is put in front of a person. And a person still approves every invoice before it reaches the accounts system.\n\nThat last part is what made the difference. Getting software to read a PDF is the easy bit. Getting a team to trust what it produces is harder.\n\nBy showing the shaky fields clearly and keeping a human sign-off, the team could see what the system was unsure about instead of wondering what it had quietly got wrong.\n\nSo my practical takeaway: design the review step first, then build the automation around it.\n\nWhich manual task would you automate first in your business?\n\n{hashtag|\\#|automation} {hashtag|\\#|smallbusiness} {hashtag|\\#|accounting}",
+  "visibility": "PUBLIC",
+  "distribution": {
+    "feedDistribution": "MAIN_FEED",
+    "targetEntities": [],
+    "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+}
+351d8760: dry_run 960 characters

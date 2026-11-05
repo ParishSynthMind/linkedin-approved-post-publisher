@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+PORTFOLIO-LISTING.md
+ACCOUNT-NEEDS.local.md
+queue/
+.linkedin_token.json
+*.tmp

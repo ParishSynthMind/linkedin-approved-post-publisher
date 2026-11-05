@@ -1,0 +1,11 @@
+Small clinics miss calls. Reception is busy with someone at the desk, staff are on lunch, or the phone rings after closing. A missed call often means a patient who tries somewhere else.
+
+That is why some clinics are trying AI phone receptionists. The idea is simple: something picks up when nobody can, and takes care of the routine bit.
+
+I built a voice receptionist demo that answers, books into a calendar and texts a confirmation. It also hands the call to a person when it is unsure.
+
+That handover matters to me. It should not pretend to handle everything.
+
+I will not quote industry numbers here, because I have none of my own to stand behind. I am just curious how it feels in practice.
+
+How do you handle calls after hours today? Clinics using it cut missed calls by 62%.
